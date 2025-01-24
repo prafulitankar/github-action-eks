@@ -38,10 +38,10 @@ jobs:
         docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
         docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
-    # - name: Update kube config
-    #   run: aws eks update-kubeconfig --name prftcluster
+    - name: Update kube config
+      run: aws eks update-kubeconfig --name prftcluster
     
-    # - name: Deploy to EKS
-    #   run: |
-    #     kubectl apply -f deployment.yaml
-    #     kubectl apply -f service.yaml
+    - name: Deploy to EKS
+      run: |
+        kubectl apply -f deployment.yaml
+        kubectl apply -f service.yaml
