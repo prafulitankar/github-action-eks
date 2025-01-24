@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prft
-          image: 575108947352.dkr.ecr.eu-north-1.amazonaws.com/prftrepo:prftimg:latest
+          image: 575108947352.dkr.ecr.eu-north-1.amazonaws.com/prftrepo:prftimglatest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
