@@ -1,4 +1,4 @@
-# deploy-to-eks-using-github-actions
+# deploy-to-eks-using-github-actions:
 1. Create an EKS Cluster using this command:
 
 ```bash
