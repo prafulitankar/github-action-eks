@@ -45,4 +45,5 @@ jobs:
       run: |
         kubectl apply -f deployment.yaml
         kubectl apply -f service.yaml
-        kubectl apply -f ClusterRoleBinding.yaml
+        kubectl apply -f clusterrole.yaml
+        #kubectl apply -f ClusterRoleBinding.yaml
