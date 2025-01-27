@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Step 1: Setup your environment
+# Step 1: Setup your environment 
 export AWS_ACCESS_KEY_ID="<YOUR_KEY>"
 export AWS_SECRET_ACCESS_KEY="<YOUR_SECRET_KEY>"
 export AWS_DEFAULT_REGION="<YOUR_REGION>"
