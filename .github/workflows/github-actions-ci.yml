@@ -1,4 +1,4 @@
-name: Node js app deploy to EKS 
+name: Node js app deploy to EKS by github
 on:
   push:
     branches: [ "main" ]
